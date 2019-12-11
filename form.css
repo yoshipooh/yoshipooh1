@@ -1,0 +1,142 @@
+/* form */
+.form-container {
+    width: 100%;
+    margin: auto;
+    padding-top: 70px;
+    background-color: #FFFFFF;
+}
+.entry-content {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+.content-text {
+    padding-bottom: 70px;
+    text-align: center;
+}
+.content-text span {
+    display: inline-block;
+}
+.form-text {
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 14px;
+}
+.form-text-sp {
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 14px;
+    padding-top: 50px;
+}
+.form-square {
+    border: 1px solid #333333;
+    margin-bottom: 48px;
+    max-width: 796px;
+    width: 100%;
+    font-size: 20px;
+
+}
+.form-bigsquare {
+    border: 1px solid #333333;
+    max-width: 796px;
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+}
+.wpcf7-radio 
+.wpcf7-list-item{
+    padding: 15px 40px 0 9px;
+}
+.radio {
+    padding-bottom: 0;
+}
+
+
+.radio-test {
+    display: none;
+}
+
+.radio-test + span {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0.2em 0;
+    padding: 0 0 0 1.2em;
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 15px;
+}
+
+.radio-test + span::before {
+    -webkit-transform: translateY(-50%);
+    background: #fff;
+    border: 1px solid #333333;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    margin-top: 8px;
+}
+
+.radio-test + span::after {
+    -webkit-transform: translateY(-50%);
+    background: #333333;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    content: "";
+    height: 4px;
+    left: 3px;
+    opacity: 0;
+    padding: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease 0s;
+    width: 4px;
+    margin-top: 8px;
+}
+
+.radio-test:checked + span::after {
+    opacity: 1;
+}
+
+
+
+
+
+
+.button {
+    background-color: #295525;
+    border-radius: 38px;
+    height: 62px;
+    width: 221px;
+    font-size: 22px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.buttons {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.input {
+    position: relative;
+    top: -3px;
+}
+
+@media(max-width:768px){
+.wpcf7-radio .wpcf7-list-item {
+    margin-top: 0px;
+    display: block;
+}
+
+
+
+}
