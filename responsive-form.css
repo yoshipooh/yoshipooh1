@@ -1,0 +1,38 @@
+
+@media(max-width:1080px){
+    .form-container {
+        max-width: 800px;
+        width: 80%;
+    }  
+    .content-text span {
+        display: inline-block;
+    }    
+    .content-text {
+        width: 90%;
+        margin: auto;
+        line-height: 31px;
+        padding-bottom: 30px;
+    }
+
+
+}
+@media(max-width:768px) {    
+    /* main */
+    .radio {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+    .form-text {
+        font-size: 18px;
+    }
+    .sample_label {
+        padding-bottom: 21px;
+    }
+    .sample_label:after {
+        margin-top: -20px; /* チェック枠の位置 */
+    }
+    .sample_label:before {
+        margin-top: -15px; /* チェックマークの位置 */
+    }     
+}
