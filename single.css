@@ -1,0 +1,113 @@
+.single h1 {
+    font-size: 40px;
+    margin-top: 132px;
+}
+.single h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #295525;
+    margin: 25px 0;
+}
+.single h3 {
+    font-size: 28px;
+    padding: 11px 0 11px 12px;
+    border-left: 6px solid #FFF200;
+    margin: 25px 0;
+    background-color: #FFFDF6;
+}
+.single h4 {
+    font-size: 28px;
+    padding-bottom: 9px;
+    border-bottom: 3px solid #FFF200;
+    margin: 25px 0;
+}
+.single h5 {
+    font-size: 22px;
+    margin: 65px 0 25px 0;
+    padding-left: 9px;
+    border-left: 2px solid #295525;
+}
+a {
+    color: #295525;
+}
+.single {
+    width: 100%;
+    font-size: 16px;
+    color: #090803;
+    line-height: 1.7em;
+}
+.single-container {
+    max-width: 1080px;
+    padding: 0 40px;
+    width: cal(100%-80px);
+    margin: auto;
+    font-weight: normal;
+    flex-wrap: wrap;
+}
+.single-sub-title {
+    display: flex;
+    font-weight: bold;
+}
+.single-date {
+    margin-top: 14px;
+    color: #295525;
+}
+.genre {
+    font-size: 12px;
+    background-color: #FFF200;
+    color: #295525;
+    width: 82px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 17px 0 47px 14px;
+}
+.genre a {
+    text-decoration: none;
+}
+.single-image {
+    width: 600px;
+    height: 400px;
+    margin-bottom: 90px;
+}
+ul {
+    padding-bottom: 20px;
+}
+
+.list-circle ul li{
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+.list-circle li:before {
+    content: "●";
+    font-size: 8px;
+    padding-right: 5px;
+    color: #295525;
+}
+.list-number ul li{
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+.list-number-1:before {
+    content: "❶";
+    padding-right: 5px;
+    color: #295525;
+}
+.list-number-2:before {
+    content: "❷";
+    padding-right: 5px;
+    color: #295525;
+}
+.list-number-3:before {
+    content: "❸";
+    padding-right: 5px;
+    color: #295525;
+}
+.list-number-4:before {
+    content: "❹";
+    padding-right: 5px;
+    color: #295525;
+}
+ol {
+    padding-bottom: 25px;
+}
