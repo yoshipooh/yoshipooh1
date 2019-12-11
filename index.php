@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<img class="top-image" src="<?php echo get_template_directory_uri(); ?>/img/top-img/mv.jpg" alt="top-image">
+<img class="top-image" src="mv.jpg" alt="top-image">
   <div class="top-texts">
     <div class="top-text position1">しま農園の野菜には</div>
     <div class="top-text position2">選ばれる</div>
@@ -9,7 +9,7 @@
 
   <div class="main-inner">
     <div class="concept">
-      <img class="icon" src="<?php echo get_template_directory_uri(); ?>/img/top-img/h-icon-1.png" alt="concept-icon">
+      <img class="icon" src="<?php echo get_template_directory_uri(); ?>h-icon-1.png" alt="concept-icon">
       <h2 class="title">コンセプト</h2>
       <img class="mini-partition" src="<?php echo get_template_directory_uri(); ?>/img/top-img/heading-bg.png" alt="partition">
       <h3 class="concept-text">
