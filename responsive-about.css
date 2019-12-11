@@ -1,0 +1,55 @@
+@media(max-width:1080px){
+    .main-container {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .main-text {
+        margin: auto;
+        text-align: left;
+        width: 60%;
+    }
+    .main-image {
+        width: 60%;
+        max-width: 450px;
+        padding-bottom: 70px;
+    }
+    .gaiyo-container {
+        width: 100%;
+    }
+
+}
+@media(max-width:768px) {    
+    /* main */
+    .main-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .mini-partition {
+        width: 200px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .content-text {
+        width: 73%;
+        margin: auto;
+        line-height: 31px;
+        padding-bottom: 30px;
+    }
+    .kaisha {
+        width: 70%;
+        max-width: 500px;
+    }
+    .kaisha td,.kaisha th {
+        display: block;
+    }
+    .kaisha th {
+        width: auto;
+    }
+    .kaisha th,.kaisha td {
+        width: cal(100%-30px);
+    }
+}
