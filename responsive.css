@@ -1,0 +1,235 @@
+
+@media(max-width:1160px){
+    .set-container {
+        max-width: 800px;
+    }    
+    .set-content {
+        margin-bottom: 30px;
+        margin: 0 auto 30px auto;
+    }
+    .blog-container {
+        max-width: 800px;
+    }
+    .blog {
+        display: block;
+        height: 640px;
+    }
+    .kodawari-container {
+        max-width: 500px;
+    }
+    .kodawari1,.kodawari2,.kodawari3 {
+        display: block;
+        text-align: center;
+    }
+    .kodawari-content,.kodawari-title {
+        margin: auto;
+        text-align: left;
+    }
+    .kodawari-title {
+        width: 475px;
+    }
+    .kodawari-content {
+        padding-top: 20px;
+        padding-left: 0;   
+    }
+    .kodawari-image {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .kodawari-decoration {
+        display: none;
+    }
+    }
+
+@media(max-width:1080px){
+    .top-inner {
+        width: 100%;
+    }
+    .top-texts {
+        margin: auto;
+        width: 290px;
+        padding: 110px 0 0 20px;
+    }
+    .top-text {
+        font-size: 32px;
+        padding: 0 0 30px 0;
+        writing-mode: lr-tb;
+        letter-spacing: 2px;
+        background-color: rgba(255,255,255,1);
+    }   
+    .position1,.position2,.position3 {
+        position: static;
+    }
+    
+    .set-content:last-child {
+        margin-bottom: 0;
+    }
+    
+    .blog {
+        display: block;
+        height: 640px;
+    }
+    .blog-content {
+        max-width: 310px;
+        width: 90%;
+    }
+    .blog-content:last-child {
+        margin-bottom: 0;
+    }
+    .season-container {
+        width: 600px;
+    }
+    .spring-summer,.autumn-winter {
+        width: 600px;
+    }
+    .spring-summer {
+        padding-bottom: 45px;
+    }
+    .season-text {
+        padding-bottom: 20px;
+    }
+    .none {
+        display: block;
+        opacity: 0;
+    }
+    .galleries {
+    }
+    .gallery-image {
+    }
+}
+@media(max-width:768px) {    
+    /* main */
+    .main-inner {
+    }
+    .concept {
+        padding-top: 60px;
+    }
+    .concept-text {
+        font-size: 16px;
+        width: 90%;
+        line-height: 50px;
+    }
+    .content-text {
+        width: 80%;
+        margin: auto;
+        line-height: 31px;
+        padding-bottom: 30px;
+    }
+    .set-container {
+        display: block;
+    }
+    .blog {
+        height: 970px;
+    }
+    .blog-container {
+        display: block;
+    }
+    .blog-image {
+        max-width: 320px;
+        width: 100%;
+    }
+    .kodawari-title {
+        max-width: 305px;
+        width: 90%;
+    }
+    .kodawari-title p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .kodawari-content {
+        font-size: 16px;
+        padding-top: 10px;
+        width: 90%;
+    }
+    .kodawari-image {
+        width: 90%;
+    }
+    .kodawari,.online-store,.information,.event,.gallery {
+        padding: 60px 0 60px 0;
+    }
+    .icon {
+        width: 80px;
+        height: 80px;
+    }
+    .kodawari-icon {
+        width: 60px;
+        height: 60px;
+    }    
+    .title {
+        font-size: 24px;
+    }
+    .mini-partition {
+        width: 200px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .mini-partition:last-child {
+        padding-bottom: 30px;
+    }
+    .season {
+        width: 100%;
+    }
+    .season-container {
+        max-width: 300px;
+        width: 80%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .spring-summer,.autumn-winter {
+        display: block;
+        padding: 27px 10% 0px 10%;
+        width: 205px;
+        margin: auto;
+    }
+    .autumn-winter {
+        margin-bottom: 0;
+        height: 690px;
+    }
+    .arrow {
+        width: 50px;
+        height: 65px;
+        padding-top: 0;
+        transform: rotate(90deg);
+    }
+    .season h4 {
+        margin-bottom: 20px;
+    }
+    .upper {
+        margin-top: 15px;
+    }
+    .season-icon2 {
+        position: absolute;
+        top: 55px;
+        left: 50px; 
+    }
+
+}
+
+@media(max-width: 600px){
+    .blog-image {
+        width: 100%;
+        height: 100%;
+    }
+    .blog-content {
+        max-width: 310px;
+        width: 80%;  
+        margin: auto auto 30px auto;   
+    }
+    .top-text {
+        font-size: 26px;
+    }
+    .set-content {
+        max-width: 300px;
+        width: 80%;
+    }
+    .set-image {
+        max-width: 300px;
+        width: 100%;
+        max-height: 200px;
+        height: 100%;
+    }
+    .kodawari-title p {
+        font-size: 16px;
+    }
+
+}
