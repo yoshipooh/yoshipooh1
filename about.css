@@ -1,0 +1,90 @@
+
+.content-text span {
+    display: inline-block;
+}
+
+/* main */
+.main-container {
+    width: 985px;
+    margin: auto;
+    padding: 70px 0 50px 0 ;
+}
+.main-image {
+    width: 335px;
+}
+.main-text {
+    width: 590px;
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 15px;
+    line-height: 37px;
+}
+
+/* gaiyo */
+.gaiyo {
+    background-color: #FFFDF6;
+    padding-bottom: 50px;
+}
+.gaiyo-container {
+    width: 1080px;
+    margin: auto;
+    text-align: center;
+
+}
+.title {
+    padding: 40px 0 25px 0;
+}
+.mini-partition {
+    width: 320px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.content-text {
+    padding-bottom: 70px;
+}
+.kaisha {
+    width: 500px;
+    margin: auto;
+}
+.kaisha th,.kaisha td {
+    border: 1px solid #333333;
+    padding: 15px;
+}
+
+.kaisha th {
+    background-color: #FFFDF6; 
+}
+.kaisha td {
+    background-color: white;
+    font-weight: normal;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+.footer-bg {
+    background-color: #FFFDF6;
+    width: 100%;
+}
+.footer-logo {
+    width: 120px;
+    padding-top: 10px;
+}
+.address {
+    padding: 20px 0;
+}
+.footer-menu {
+    width: 619px;
+    padding: 40px 0 30px 0;
+    margin: 0 auto;
+}
+.footer-credit {
+    background-color: #295525;
+    height: 50px;
+    width: 100%;
+    color: white;
+    line-height: 50px;
+}
